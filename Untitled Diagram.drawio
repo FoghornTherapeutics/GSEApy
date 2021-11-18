@@ -1,1 +1,31 @@
-<mxfile host="app.diagrams.net" modified="2021-11-18T15:27:17.295Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.45 Safari/537.36" version="15.8.0" etag="hrb5vgEWS_U6GlP-bEqx" type="github"><diagram id="WOldtQZ7vfpcK4dOyafj">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2021-11-18T15:29:33.118Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.45 Safari/537.36" etag="lFLZmIzkjKYku8O6fUXj" version="15.8.0" type="github">
+  <diagram id="WOldtQZ7vfpcK4dOyafj" name="Page-1">
+    <mxGraphModel dx="1422" dy="914" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="XJSGAKonJKHo_-erPBdd-1" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="XJSGAKonJKHo_-erPBdd-4" target="XJSGAKonJKHo_-erPBdd-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XJSGAKonJKHo_-erPBdd-2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="XJSGAKonJKHo_-erPBdd-4" target="XJSGAKonJKHo_-erPBdd-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XJSGAKonJKHo_-erPBdd-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="XJSGAKonJKHo_-erPBdd-4" target="XJSGAKonJKHo_-erPBdd-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XJSGAKonJKHo_-erPBdd-4" value="gsea_main.py&lt;br&gt;&lt;br&gt;-parser&lt;br&gt;- main functions that call the subroutines" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="340" y="30" width="130" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="XJSGAKonJKHo_-erPBdd-5" value="gsea_calc.py&lt;br&gt;&lt;br&gt;- calculate the NES for the rank files for all gene sets&lt;br&gt;(prerank() from gseapy)&lt;br&gt;&lt;br&gt;--&amp;gt; generate a dataframe of enrichment values called pre_res for each rank files and each gene sets" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="110" y="180" width="190" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="XJSGAKonJKHo_-erPBdd-6" value="gseap_select.py&lt;br&gt;&lt;br&gt;- reorder the pre_res dataframe by best NES values for each rank files and each genes sets" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="312.5" y="180" width="185" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="XJSGAKonJKHo_-erPBdd-7" value="enrichment_plot.py&lt;br&gt;&lt;br&gt;- take the best 20 NES value and generate the enrichment plot for each of them" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="520" y="180" width="190" height="160" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
