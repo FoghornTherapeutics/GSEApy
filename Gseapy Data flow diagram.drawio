@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-11-18T19:52:47.698Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.45 Safari/537.36" etag="lEv02CwbhixhxbNrvkgO" version="15.8.0" type="github">
+<mxfile host="app.diagrams.net" modified="2021-11-18T19:53:58.445Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.45 Safari/537.36" etag="BMB4GTQyA97SYqGXrI1T" version="15.8.0" type="github">
   <diagram id="pDyUetdAAQLMD6045xFQ" name="Page-1">
     <mxGraphModel dx="2272" dy="2048" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -10,8 +10,8 @@
         <mxCell id="V_4nySnlaSvJKYtQ2s8u-58" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="V_4nySnlaSvJKYtQ2s8u-8" target="V_4nySnlaSvJKYtQ2s8u-57">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="V_4nySnlaSvJKYtQ2s8u-8" value="path for outputs (8) files" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
-          <mxGeometry x="485" y="320" width="120" height="60" as="geometry" />
+        <mxCell id="V_4nySnlaSvJKYtQ2s8u-8" value="path for outputs (data frames or NES values and enrichment plots)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="450" y="320" width="155" height="80" as="geometry" />
         </mxCell>
         <mxCell id="V_4nySnlaSvJKYtQ2s8u-28" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="V_4nySnlaSvJKYtQ2s8u-10" target="V_4nySnlaSvJKYtQ2s8u-14">
           <mxGeometry relative="1" as="geometry" />
