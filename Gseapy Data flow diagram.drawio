@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-11-18T19:31:03.987Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.45 Safari/537.36" etag="JRjtPetVvOVCdD6FL9La" version="15.8.0" type="github">
+<mxfile host="app.diagrams.net" modified="2021-11-18T19:52:33.862Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.45 Safari/537.36" etag="Dbj9HNnaqNVZI5CCcion" version="15.8.0" type="github">
   <diagram id="pDyUetdAAQLMD6045xFQ" name="Page-1">
-    <mxGraphModel dx="1662" dy="948" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="2272" dy="2048" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -11,37 +11,42 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="V_4nySnlaSvJKYtQ2s8u-8" value="path for outputs (8) files" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
-          <mxGeometry x="517.5" y="460" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="V_4nySnlaSvJKYtQ2s8u-26" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="V_4nySnlaSvJKYtQ2s8u-10" target="V_4nySnlaSvJKYtQ2s8u-17">
-          <mxGeometry relative="1" as="geometry" />
+          <mxGeometry x="485" y="320" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="V_4nySnlaSvJKYtQ2s8u-28" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="V_4nySnlaSvJKYtQ2s8u-10" target="V_4nySnlaSvJKYtQ2s8u-14">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="V_4nySnlaSvJKYtQ2s8u-10" value="&lt;span style=&quot;font-size: 11pt ; font-family: &amp;#34;calibri&amp;#34; , sans-serif&quot;&gt;process command line&lt;br&gt;arguments:&lt;br&gt;&lt;br&gt;- input_dir &lt;br&gt;- ouptut_dir&lt;br&gt;&lt;/span&gt;" style="ellipse;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
-          <mxGeometry x="275" y="20" width="210" height="130" as="geometry" />
-        </mxCell>
-        <mxCell id="V_4nySnlaSvJKYtQ2s8u-30" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="V_4nySnlaSvJKYtQ2s8u-17" target="V_4nySnlaSvJKYtQ2s8u-19">
+        <mxCell id="V_4nySnlaSvJKYtQ2s8u-74" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="V_4nySnlaSvJKYtQ2s8u-10" target="V_4nySnlaSvJKYtQ2s8u-73">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="V_4nySnlaSvJKYtQ2s8u-17" value="&lt;span&gt;output_dir&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
-          <mxGeometry x="410" y="210" width="120" height="60" as="geometry" />
+        <mxCell id="V_4nySnlaSvJKYtQ2s8u-10" value="&lt;span style=&quot;font-size: 11pt ; font-family: &amp;#34;calibri&amp;#34; , sans-serif&quot;&gt;process command line&lt;br&gt;arguments:&lt;br&gt;&lt;br&gt;-&amp;nbsp; experiment_id&lt;br&gt;- input_dir &lt;br&gt;- ouptut_dir&lt;br&gt;&lt;/span&gt;" style="ellipse;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="90" y="-310" width="210" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="V_4nySnlaSvJKYtQ2s8u-30" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="V_4nySnlaSvJKYtQ2s8u-14" target="V_4nySnlaSvJKYtQ2s8u-19">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="437.5" y="130" as="sourcePoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="V_4nySnlaSvJKYtQ2s8u-18" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="V_4nySnlaSvJKYtQ2s8u-19" target="V_4nySnlaSvJKYtQ2s8u-8">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="V_4nySnlaSvJKYtQ2s8u-19" value="&lt;b&gt;setupt_input_directory():&lt;/b&gt; &lt;br&gt;create path for ouptut files,&lt;br&gt;create one folder per rank files per gene sets" style="ellipse;whiteSpace=wrap;html=1;rounded=0;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
-          <mxGeometry x="485" y="325" width="185" height="100" as="geometry" />
+        <mxCell id="V_4nySnlaSvJKYtQ2s8u-19" value="&lt;b&gt;setupt_output_directory():&lt;/b&gt; &lt;br&gt;create path for ouptut files,&lt;br&gt;create one folder per rank files per gene sets" style="ellipse;whiteSpace=wrap;html=1;rounded=0;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="452.5" y="80" width="185" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="V_4nySnlaSvJKYtQ2s8u-20" value="&lt;b&gt;setupt_input_directory():&lt;/b&gt; &lt;br&gt;find path for input rnk files and read all of them in panda dataframes" style="ellipse;whiteSpace=wrap;html=1;rounded=0;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
-          <mxGeometry x="210" y="325" width="180" height="100" as="geometry" />
+        <mxCell id="V_4nySnlaSvJKYtQ2s8u-63" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="V_4nySnlaSvJKYtQ2s8u-20" target="V_4nySnlaSvJKYtQ2s8u-62">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="V_4nySnlaSvJKYtQ2s8u-82" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="V_4nySnlaSvJKYtQ2s8u-20" target="V_4nySnlaSvJKYtQ2s8u-81">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="V_4nySnlaSvJKYtQ2s8u-20" value="&lt;b&gt;setupt_input_directory():&lt;/b&gt; &lt;br&gt;find path for input metadata files&amp;nbsp;" style="ellipse;whiteSpace=wrap;html=1;rounded=0;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="-210" y="130" width="180" height="100" as="geometry" />
         </mxCell>
         <mxCell id="V_4nySnlaSvJKYtQ2s8u-29" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="V_4nySnlaSvJKYtQ2s8u-14" target="V_4nySnlaSvJKYtQ2s8u-20">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="V_4nySnlaSvJKYtQ2s8u-14" value="&lt;span&gt;input_dir&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
-          <mxGeometry x="240" y="210" width="120" height="60" as="geometry" />
+          <mxGeometry x="240" y="90" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="V_4nySnlaSvJKYtQ2s8u-40" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="V_4nySnlaSvJKYtQ2s8u-31" target="V_4nySnlaSvJKYtQ2s8u-39">
           <mxGeometry relative="1" as="geometry" />
@@ -78,21 +83,6 @@
         <mxCell id="V_4nySnlaSvJKYtQ2s8u-39" value="reorder each data frame by the best NES values (i.e. largest absolute values of NES)" style="ellipse;whiteSpace=wrap;html=1;rounded=0;strokeColor=#d6b656;fillColor=#fff2cc;" vertex="1" parent="1">
           <mxGeometry x="190" y="1190" width="220" height="122.5" as="geometry" />
         </mxCell>
-        <mxCell id="V_4nySnlaSvJKYtQ2s8u-42" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" target="V_4nySnlaSvJKYtQ2s8u-20">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="300" y="520" as="sourcePoint" />
-            <mxPoint x="280" y="580" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="V_4nySnlaSvJKYtQ2s8u-43" value="build rnk file&lt;br&gt;&lt;br&gt;(jupyter notebook from Dave)" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="240" y="610" width="120" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="V_4nySnlaSvJKYtQ2s8u-44" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="V_4nySnlaSvJKYtQ2s8u-43" target="V_4nySnlaSvJKYtQ2s8u-33">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="230" y="510" as="sourcePoint" />
-            <mxPoint x="280" y="460" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
         <mxCell id="V_4nySnlaSvJKYtQ2s8u-48" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="V_4nySnlaSvJKYtQ2s8u-45" target="V_4nySnlaSvJKYtQ2s8u-47">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
@@ -128,6 +118,93 @@
         </mxCell>
         <mxCell id="V_4nySnlaSvJKYtQ2s8u-60" value="&lt;span&gt;20 enrichment plots per rnk files, per gene sets saved&lt;/span&gt;" style="whiteSpace=wrap;html=1;rounded=0;strokeColor=#d6b656;fillColor=#fff2cc;" vertex="1" parent="1">
           <mxGeometry x="620" y="1867.53" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="V_4nySnlaSvJKYtQ2s8u-71" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="V_4nySnlaSvJKYtQ2s8u-62" target="V_4nySnlaSvJKYtQ2s8u-87">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-162.5" y="455" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="-160" y="670" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="V_4nySnlaSvJKYtQ2s8u-62" value="rnk_dir" style="whiteSpace=wrap;html=1;rounded=0;strokeColor=#d6b656;fillColor=#fff2cc;" vertex="1" parent="1">
+          <mxGeometry x="-222.5" y="350" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="V_4nySnlaSvJKYtQ2s8u-75" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="V_4nySnlaSvJKYtQ2s8u-73" target="V_4nySnlaSvJKYtQ2s8u-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="V_4nySnlaSvJKYtQ2s8u-80" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="V_4nySnlaSvJKYtQ2s8u-73" target="V_4nySnlaSvJKYtQ2s8u-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="V_4nySnlaSvJKYtQ2s8u-73" value="experiment_id" style="whiteSpace=wrap;html=1;fontColor=#333333;strokeColor=#666666;fillColor=#f5f5f5;" vertex="1" parent="1">
+          <mxGeometry x="80" y="-10" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="V_4nySnlaSvJKYtQ2s8u-84" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="V_4nySnlaSvJKYtQ2s8u-81" target="V_4nySnlaSvJKYtQ2s8u-83">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="V_4nySnlaSvJKYtQ2s8u-81" value="find dge files" style="whiteSpace=wrap;html=1;rounded=0;strokeColor=#d6b656;fillColor=#fff2cc;" vertex="1" parent="1">
+          <mxGeometry x="-50" y="350" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="V_4nySnlaSvJKYtQ2s8u-86" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="V_4nySnlaSvJKYtQ2s8u-83" target="V_4nySnlaSvJKYtQ2s8u-85">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="V_4nySnlaSvJKYtQ2s8u-83" value="load dge files in dge_df_list" style="ellipse;whiteSpace=wrap;html=1;rounded=0;strokeColor=#d6b656;fillColor=#fff2cc;" vertex="1" parent="1">
+          <mxGeometry x="-20" y="465" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="V_4nySnlaSvJKYtQ2s8u-88" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="V_4nySnlaSvJKYtQ2s8u-85" target="V_4nySnlaSvJKYtQ2s8u-87">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="V_4nySnlaSvJKYtQ2s8u-98" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="V_4nySnlaSvJKYtQ2s8u-85" target="V_4nySnlaSvJKYtQ2s8u-92">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-300" y="605" />
+              <mxPoint x="-300" y="740" />
+              <mxPoint x="-490" y="740" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="V_4nySnlaSvJKYtQ2s8u-85" value="dge_df_list" style="whiteSpace=wrap;html=1;rounded=0;strokeColor=#d6b656;fillColor=#fff2cc;" vertex="1" parent="1">
+          <mxGeometry x="-10" y="575" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="V_4nySnlaSvJKYtQ2s8u-89" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="V_4nySnlaSvJKYtQ2s8u-87" target="V_4nySnlaSvJKYtQ2s8u-33">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="V_4nySnlaSvJKYtQ2s8u-87" value="generate rank files" style="ellipse;whiteSpace=wrap;html=1;rounded=0;strokeColor=#d6b656;fillColor=#fff2cc;" vertex="1" parent="1">
+          <mxGeometry x="240" y="640" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="V_4nySnlaSvJKYtQ2s8u-94" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="V_4nySnlaSvJKYtQ2s8u-90" target="V_4nySnlaSvJKYtQ2s8u-92">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-520" y="810" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="V_4nySnlaSvJKYtQ2s8u-90" value="mouse_human_map_file" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="-500" y="545" width="180" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="V_4nySnlaSvJKYtQ2s8u-93" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="V_4nySnlaSvJKYtQ2s8u-91" target="V_4nySnlaSvJKYtQ2s8u-92">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-520" y="810" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="V_4nySnlaSvJKYtQ2s8u-91" value="is_mouse = True" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="-710" y="550" width="130" height="65" as="geometry" />
+        </mxCell>
+        <mxCell id="V_4nySnlaSvJKYtQ2s8u-96" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="V_4nySnlaSvJKYtQ2s8u-92" target="V_4nySnlaSvJKYtQ2s8u-95">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-450" y="860" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="V_4nySnlaSvJKYtQ2s8u-92" value="convert symbol genes to human" style="ellipse;whiteSpace=wrap;html=1;rounded=0;strokeColor=#b85450;fillColor=#f8cecc;" vertex="1" parent="1">
+          <mxGeometry x="-600" y="810" width="140" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="V_4nySnlaSvJKYtQ2s8u-97" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="V_4nySnlaSvJKYtQ2s8u-95" target="V_4nySnlaSvJKYtQ2s8u-87">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="260" y="740" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="V_4nySnlaSvJKYtQ2s8u-95" value="new dge_df_list" style="whiteSpace=wrap;html=1;rounded=0;strokeColor=#b85450;fillColor=#f8cecc;" vertex="1" parent="1">
+          <mxGeometry x="-330" y="820" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
